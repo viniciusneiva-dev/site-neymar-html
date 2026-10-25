@@ -1,0 +1,115 @@
+
+/* Estilo geral */
+body {
+    background-color: #f0f4f8;
+    color: #333333;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #123c69;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Título principal - seletor de ID */
+#titulo {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+/* Parágrafo de apresentação - seletor de classe */
+.introducao {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* Menu */
+nav {
+    background-color: white;
+    padding: 12px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Links do menu */
+nav a {
+    color: #123c69;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Agrupamento de títulos */
+h2, h3 {
+    color: #123c69;
+    font-family: "Roboto", sans-serif;
+    text-decoration: underline;
+}
+
+/* Parágrafos - seletor de tag */
+p {
+    font-size: 16px;
+}
+
+/* Seções com Box Model */
+section {
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #123c69;
+}
+
+/* Borda da imagem */
+.foto {
+    border-width: 3px;
+    border-style: solid;
+    border-color: #d4a017;
+    padding: 5px;
+}
+
+/* Estilo das listas */
+ul {
+    list-style-type: square;
+}
+
+ol {
+    list-style-type: upper-roman;
+}
+
+li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+/* Links */
+a {
+    color: #0056b3;
+}
+
+/* Efeito hover - extra opcional */
+a:hover {
+    color: #d4a017;
+    text-decoration: underline;
+}
+
+/* Rodapé */
+footer {
+    background-color: #123c69;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer a {
+    color: white;
+}
